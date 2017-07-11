@@ -114,6 +114,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="ADIS16448_IMU.lvlib" Type="Library" URL="../FRC ADI MXP IMU/LabVIEW/ADIS16448 IMU/ADIS16448_IMU.lvlib"/>
 			<Item Name="Aim Robot.vi" Type="VI" URL="../Aim Robot.vi"/>
 			<Item Name="Aim Rotation.vi" Type="VI" URL="../Aim Rotation.vi"/>
@@ -128,6 +129,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="PID Robot Drive.vi" Type="VI" URL="../PID Robot Drive.vi"/>
 			<Item Name="Robot Drive Manual.vi" Type="VI" URL="../Robot Drive Manual.vi"/>
+			<Item Name="Robot Drive Manual - Arcade.vi" Type="VI" URL="../Robot Drive Manual - Arcade.vi"/>
+			<Item Name="Robot Drive Manual - Tank.vi" Type="VI" URL="../Robot Drive Manual - Tank.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
